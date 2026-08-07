@@ -1,2 +1,5 @@
+server:
+  port: 8081
+
 custom:
   version: "1.0"
