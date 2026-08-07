@@ -15,7 +15,7 @@ management:
         include: health,info
   endpoint:
     shutdown:
-      enabled: unrestricted
+      enabled: true
   info:
     env:
       enabled: true
