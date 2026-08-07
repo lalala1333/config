@@ -1,2 +1,8 @@
 custom:
   version: "5553"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
