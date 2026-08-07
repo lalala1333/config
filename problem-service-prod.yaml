@@ -1,5 +1,5 @@
 custom:
-  version: "555"
+  version: "5"
 
 management:
   endpoints:
