@@ -19,10 +19,6 @@ management:
   info:
     env:
       enabled: true
-  
-endpoints:
-  shutdown:
-    enabled: unrestricted
 
 eureka:
   instance:
