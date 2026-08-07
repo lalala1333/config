@@ -14,10 +14,6 @@ management:
       probes:
         enabled: true
 eureka:
-  instance:
-    hostname: localhost
   client:
     fetchRegistry: false
     registerWithEureka: false
-    serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:8080/eureka
