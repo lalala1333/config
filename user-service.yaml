@@ -26,6 +26,7 @@ eureka:
   client:
     fetchRegistry: true
     registerWithEureka: true
+    registry-fetch-interval-seconds: 5
     serviceUrl:
       defaultZone: http://eureka-server:8080/eureka
 
