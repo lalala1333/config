@@ -6,3 +6,10 @@ management:
     web:
       exposure:
         include: "*"
+
+logging:
+  level:
+    com:
+      example:
+        problemservice:
+          service: DEBUG
