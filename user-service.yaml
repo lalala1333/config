@@ -35,3 +35,9 @@ info:
     name: "user-service"
     description: "user-service microservice"
     version: "1.0.0"
+
+logging:
+  level:
+    com:
+      example:
+        user-service: DEBUG
